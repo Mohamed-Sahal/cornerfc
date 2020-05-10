@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Owl carousel slider</title>
+    
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <style type="text/css">
+        .wrapper {width: 100%; height: auto; overflow: hidden;}
+        .owl-nav {
+            text-align: center;
+        }
+        .nxtBtn {
+            width: 100px;
+            height: 50px;
+            display: inline-block;
+            background: red;
+            border-radius: 10px;
+            padding: 10px 0;
+            cursor: pointer;
+        }
+        .prvBtn {
+            width: 100px;
+            height: 50px;
+            display: inline-block;
+            background: red;
+            border-radius: 10px;
+            padding: 10px 0;
+            cursor: pointer;
+        }
+        owl-item {width: 100%;}
+        .owl-nav div i {
+            font-size: 50px;
+            color: #fff;
+        }
+        .item {
+            width: 100%;
+            height: 400px;
+            background: red;
+            text-align: center;
+        }
+        .item img {
+            width: auto;
+            height: 100%;
+        }
+        .owl-theme .owl-dots .owl-dot span {
+            width: 50px;
+            height: 40px;
+            background: #000;
+            border-radius: 0;
+        }
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot.active span:hover {background: red;}
+        .owl-theme .owl-dots .owl-dot span:hover {background: red;}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="owl-controls">
+            <div class="owl-nav">
+                <div class="prvBtn"><i class="fas fa-chevron-circle-left"></i></div>
+                <div class="nxtBtn"><i class="fas fa-chevron-circle-right"></i></div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="slider/slider-1.jpg" alt=""></div>
+            <div class="item"><img src="slider/slider-2.jpg" alt=""></div>
+            <div class="item"><img src="slider/slider-3.jpg" alt=""></div>
+            <div class="item"><img src="slider/slider-4.jpg" alt=""></div>
+        </div>
+        
+        
+    
+    </div> <!-- wrapper -->
+    
+    <script src="jquery.2.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="jquer.js"></script>
+</body>
+</html>
